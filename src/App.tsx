@@ -14,7 +14,7 @@ import {
   Ripple,
   Roller,
   Spinner,
-} from 'loading';
+} from 'spin-spin-spin';
 
 const App: React.FC = () => {
   return (
