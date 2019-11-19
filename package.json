@@ -1,6 +1,7 @@
 {
-  "name": "loading-example",
+  "name": "loaders-example",
   "version": "0.1.0",
+  "author": "Cameron Irmas (https://github.com/camirmas)",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.23",
@@ -16,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint-fix": "prettier --write 'src/**/*.ts*'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "1.19.1"
   }
 }
