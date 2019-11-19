@@ -8,6 +8,7 @@
     "@types/node": "12.12.8",
     "@types/react": "16.9.11",
     "@types/react-dom": "16.9.4",
+    "gh-pages": "^2.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
@@ -18,7 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint-fix": "prettier --write 'src/**/*.ts*'"
+    "lint-fix": "prettier --write 'src/**/*.ts*'",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,5 +40,6 @@
   },
   "devDependencies": {
     "prettier": "1.19.1"
-  }
+  },
+  "homepage": "https://camirmas.github.io/loaders-example"
 }
